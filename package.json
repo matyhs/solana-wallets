@@ -1,0 +1,22 @@
+{
+	"name": "solana-wallets",
+	"version": "0.0.1",
+	"scripts": {
+		"dev": "svelte-kit dev",
+		"build": "svelte-kit build",
+		"package": "svelte-kit package",
+		"preview": "svelte-kit preview",
+		"prepare": "svelte-kit sync"
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-auto": "next",
+		"@sveltejs/kit": "next",
+		"svelte": "^3.44.0"
+	},
+	"type": "module",
+	"dependencies": {
+		"@solana/wallet-adapter-base": "^0.9.5",
+		"@solana/wallet-adapter-wallets": "^0.16.1",
+		"@solana/web3.js": "^1.43.4"
+	}
+}
